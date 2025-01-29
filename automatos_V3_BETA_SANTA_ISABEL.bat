@@ -4,13 +4,11 @@ setlocal enabledelayedexpansion
 :: Cabeçalho estilizado
 cls
 echo.
-echo ***************************************
-echo *                                     *
-echo *          automatos_V3_BETA          *
-echo *                                     *
-echo ***************************************
+echo             __                 __
+echo  ___  __ __/ /_ __  __ __ __ _/ /  __  ___
+echo / _ `/ // / __/ _ \/  ' / _ `/ __/ _ \ \_
+echo \_,_/\_,_/\__/\___/_/_/_\_,_/\__/\___/___/ V_3.0
 echo.
-
 :: Configuracoes iniciais
 color 0A
 
@@ -70,7 +68,7 @@ if exist "C:\Program Files (x86)\Automatos\Desktop Agent" (
     color 0A
 ) else (
     setlocal enabledelayedexpansion
-    for %%a in ("Aguardando criacao da pasta / Instalacao .   " "Aguardando criacao da pasta / Instalacao ..  " "Aguardando criacao da pasta / Instalacao ... " "Aguardando criacao da pasta / Instalacao .   ") do (
+    for %%a in ("Aguardando criacao da pasta / Instalacao #**   " "Aguardando criacao da pasta / Instalacao ##*  " "Aguardando criacao da pasta / Instalacao ### " "Aguardando criacao da pasta / Instalacao .   ") do (
         echo %%a
         timeout /t 1 >nul
         cls
