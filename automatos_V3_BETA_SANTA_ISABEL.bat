@@ -104,11 +104,13 @@ if /i "%reiniciar%"=="S" (
 cls
 color 0A
 echo.
-echo ***************************************
-echo *                                     *
-echo *        INSTALACAO TERMINADA         *
-echo *                                     *
-echo ***************************************
+echo       :::::::::: :::::::::::   :::   ::: 
+echo      :+:            :+:      :+:+: :+:+: 
+echo     +:+            +:+     +:+ +:+:+ +:+ 
+echo    :#::+::#       +#+     +#+  +:+  +#+  
+echo   +#+            +#+     +#+       +#+   
+echo  #+#            #+#     #+#       #+#    
+echo ###        ########### ###       ###     
 echo.
 echo [INFO] Processo concluido com sucesso.
 
